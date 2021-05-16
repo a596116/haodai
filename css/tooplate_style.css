@@ -196,23 +196,23 @@ h6 { font-size: 10px; margin: 0 0 5px; padding: 0; } */
 }
 
 #tooplate_content #home span.slideno {
-	background-image: url(../images/home.png)
+	background-image: url(../images/home.png);
 }
 
 #tooplate_content #about span.slideno {
-	background-image: url(../images/one.png)	
+	background-image: url(../images/school.png)	
 }
 
 #tooplate_content #social span.slideno {
-	background-image: url(../images/two.png)	
+	background-image: url(../images/school.png)	
 }
 
 #tooplate_content #contact span.slideno { 
-	background-image: url(../images/three.png)	
+	background-image: url(../images/data.png)	
 }
 
 #tooplate_content #haoyang span.slideno {
-	background-image: url(../images/four.png)	
+	background-image: url(../images/m.png)	
 }
 
 /* #tooplate_content #home span.header {
