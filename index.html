@@ -10,6 +10,7 @@
 <link rel="stylesheet" type="text/css" href="css/box.css"/>
 <link rel="stylesheet" type="text/css" href="css/box_photo.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="css/horse_box.css" />
+<link rel="stylesheet" type="text/css" href="css/slideshow.css" />
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -151,7 +152,43 @@
 <!-- About / Data -->
 <div class="container padding-64 pale-red grayscale-min" id="Data">
   <div class="content">
-    <img class="round grayscale-min" src="https://upload.cc/i1/2021/05/15/hb1csg.png" />
+    <!-- <img class="round grayscale-min" src="https://upload.cc/i1/2021/05/15/hb1csg.png" /> -->
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <img src="https://upload.cc/i1/2021/05/15/hb1csg.png" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="https://upload.cc/i1/2021/05/17/azZA6v.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="https://upload.cc/i1/2021/05/17/cBWjGK.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="https://upload.cc/i1/2021/05/17/k0t6NR.jpg" style="width:100%">
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    </div>
+    <br>
+
+
+
+
 
     <!-- Menu Container -->
     <div id="menu">
