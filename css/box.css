@@ -264,29 +264,6 @@ h6 { font-size: 10px; margin: 0 0 5px; padding: 0; } */
 	display: block;
 }
 
-#tooplate_content li ul.social_links li a.facebook {
-	background-image: url(../images/facebook.png) 
-}
-
-#tooplate_content li ul.social_links li a.flickr {
-	background-image: url(../images/flickr.png)
-}
-
-#tooplate_content li ul.social_links li a.linkedin {
-	background-image: url(../images/linkedin.png)
-}
-
-#tooplate_content li ul.social_links li a.twitter {
-	background-image: url(../images/twitter.png) 
-}
-
-#tooplate_content li ul.social_links li a.yahoo {
-	background-image: url(../images/yahoo.png)
-}
-
-#tooplate_content li ul.social_links li a.youtube {
-	background-image: url(../images/youtube.png)
-}
 
 #contact_form { 
 	padding: 0; 
