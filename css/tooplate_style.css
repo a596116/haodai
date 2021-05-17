@@ -15,6 +15,7 @@ http://www.tooplate.com/view/2058-metallic-slider
 	background-position: top center;
 	background-image: url(../images/tooplate_main.jpg)
 } */
+.ti{width: 500px;height: 102px;display:block; margin:auto;}
 
 li a, li a:link,li a:visited { 
 	color: #ec8a97; 
@@ -68,12 +69,16 @@ cite span {
 .image_fl { 
 	float: left; 
 	margin: 3px 20px 5px 0; 
+	width:408px;
+	height:306px;
 }
 
 .image_fr { 
 	float: right; 
 	margin: 3px 0 5px 20px;
-	margin-right: 50px; 
+	margin-right: 50px;
+	width:200px;
+	height:200px; 
 }
 
 /* h1, h2, h3, h4, h5, h6 { color: #000000; font-weight: normal; font-family: Georgia, "Times New Roman", Times, serif }
@@ -173,27 +178,6 @@ h6 { font-size: 10px; margin: 0 0 5px; padding: 0; } */
 	background-position: top;
 }
 
-#tooplate_content #home { 
-}
-#tooplate_content #home.active { 
-}
-#tooplate_content #about {
-}
-#tooplate_content #about.active {
-}
-#tooplate_content #social {
-}
-#tooplate_content #social.active {
-}
-#tooplate_content #portfolio { 
-}
-#tooplate_content #portfolio.active { 
-}
-#tooplate_content #contact {
-}
-#tooplate_content #contact.active {
-	margin-right: 0px;	
-}
 
 #tooplate_content #home span.slideno {
 	background-image: url(../images/home.png);
@@ -215,25 +199,6 @@ h6 { font-size: 10px; margin: 0 0 5px; padding: 0; } */
 	background-image: url(../images/m.png)	
 }
 
-/* #tooplate_content #home span.header {
-	background-image: url(../images/home.png)
-}
-
-#tooplate_content #about span.header {
-	background-image: url(../images/about.png)	
-}
-
-#tooplate_content #social span.header {
-	background-image: url(../images/social.png)	
-}
-
-#tooplate_content #portfolio span.header { 
-	background-image: url(../images/portfolio.png)	
-}
-
-#tooplate_content #contact span.header {
-	background-image: url(../images/contact.png)	
-} */
 
 #tooplate_content li .inner {
 	width: 570px; 
@@ -371,3 +336,35 @@ h6 { font-size: 10px; margin: 0 0 5px; padding: 0; } */
 }
 
 .col_half { width: 270px }
+
+
+
+
+
+
+
+
+
+#home .inner{margin-left: 50px;}
+#home h2{color: #000000; font-weight: normal; font-family: Georgia;margin-left: 150px;color: rgb(49, 153, 122);font-family: 'Pacifico';}
+
+#about .inner{margin-top: 50px;margin-left: 30px;}
+#about h2{margin-top: 30px;color: rgb(223, 146, 31);margin-left: 70px;font-family: 'Pattaya';}
+#about a{margin-left: 70px;}
+
+#social .inner{margin-top: 50px;margin-left: 30px;}
+#social h2{margin-top: 30px;color: rgb(223, 146, 31);margin-left: 70px;font-family: 'Pattaya';}
+#social a{margin-left: 70px;}
+#social div{margin-top: 30px;}
+
+#contact .title1{margin-top: 90px;color: rgb(223, 146, 31);margin-left: 60px;float:left;width: 30%;font-family: 'Dancing Script';}
+#contact .title2{margin-top: 90px;color: rgb(223, 146, 31);margin-left: 120px;float:left;width: 30%;font-family: 'Dancing Script';}
+#contact div{margin-top: 30px;float:left;width: 45%;}
+#contact .t1 a{margin-left: 60px;}
+#contact .t2 a{margin-left: 90px;}
+
+#haoyang h2{margin-left: 200px;color: rgb(250, 121, 70);font-family: 'Lobster';}
+
+
+
+
