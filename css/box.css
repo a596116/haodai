@@ -102,13 +102,6 @@ cite span {
 	100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
 
-/* h1, h2, h3, h4, h5, h6 { color: #000000; font-weight: normal; font-family: Georgia, "Times New Roman", Times, serif }
-h1 { font-size: 48px; margin: 0 0 30px; padding: 5px 0 }
-h2 { font-size: 28px; margin: 0 0 25px; padding: 3px 0 }
-h3 { font-size: 18px; margin: 0 0 15px; padding: 0; }
-h4 { font-size: 16px; margin: 0 0 10px; padding: 0; }
-h5 { font-size: 14px; margin: 0 0 10px; padding: 0;  }
-h6 { font-size: 10px; margin: 0 0 5px; padding: 0; } */
 
 .cleaner { clear: both }
 .h10 { height: 10px }
@@ -361,7 +354,7 @@ h6 { font-size: 10px; margin: 0 0 5px; padding: 0; } */
 #contact .t1 a{margin-left: 60px;}
 #contact .t2 a{margin-left: 90px;}
 
-#haoyang h2{margin-left: 200px;color: rgb(250, 121, 70);font-family: 'Lobster';}
+#haoyang h2{margin-left: 200px;color: rgb(250, 121, 70);font-family: 'Lobster';font-size: 30px;}
 
 
 
