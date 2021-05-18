@@ -58,12 +58,12 @@
     margin-top: 15px;
   }
   
-  .active, .dot:hover {
+  #Data .active,#Data .dot:hover {
     background-color: #505050;
   }
   
   /* Fading animation */
-  .fade {
+  /* .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
@@ -78,5 +78,5 @@
   @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
-  }
+  } */
   
