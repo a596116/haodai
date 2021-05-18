@@ -1,4 +1,4 @@
-
+.ooo{height: 130px;}
 .ti{width: 500px;height: 102px;display:block; margin:auto;}
 
 li a, li a:link,li a:visited { 
@@ -100,6 +100,7 @@ cite span {
 
 #tooplate_main { 
 	width: 968px;
+	height: 100%;
 	margin: 0 auto;
 }
 

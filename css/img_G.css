@@ -262,7 +262,7 @@ padding: 100px 0; }
 
 
 
-
+/* 顯示文字 */
 /* -------------------------------------------- */
 figcaption{display: none;}
 
@@ -285,7 +285,7 @@ figcaption {
   display: block;
 }
 
-figcaption h2{width: 230px;text-align: center;}
+figcaption h2{width: 230px;text-align: center;font-family: "Dancing Script";}
 
 .card-img-overlay:hover figcaption::before,
 .card-img-overlay:hover figcaption h2 {
