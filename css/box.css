@@ -1,20 +1,4 @@
-/*
-Template 2058 metallic slider 
-http://www.tooplate.com/view/2058-metallic-slider
-*/
 
-/* body {
-	margin: 0;
-	padding: 0;
-	color: #666464;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	font-size: 12px;
-	line-height: 1.4em; 
-	background-color: #000; 
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-image: url(../images/tooplate_main.jpg)
-} */
 .ti{width: 500px;height: 102px;display:block; margin:auto;}
 
 li a, li a:link,li a:visited { 
