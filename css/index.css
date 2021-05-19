@@ -15,7 +15,7 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
 .button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
 .white,.hover-white:hover{color:rgb(255, 255, 255)!important;background-color:rgb(145, 145, 145)!important}
 .button:hover{color:#000!important;background-color:#ccc!important} 
-.bar .bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0;width:22%;font-family: "Dancing Script";}
+.bar .bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0;width:17%;font-family: "Dancing Script";}
 .bar .button{white-space:normal;font-size: 18px;}
 .bottom{position:fixed;width:100%;z-index:1}.bottom{top:0}
 .opacity-min{opacity:0.8}
