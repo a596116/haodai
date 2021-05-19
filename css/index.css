@@ -20,10 +20,9 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
 .bottom{position:fixed;width:100%;z-index:1}.bottom{top:0}
 .opacity-min{opacity:0.8}
 
-
 /*home*/
 .display-middle{position:absolute;top:60%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);margin-top: 80px;}
-.jumbo{font-size:64px;color: rgb(255, 255, 255);float: left;margin-left: 90px;font-family: 'Dancing Script';}
+#home .jumbo{font-size:64px;color: rgb(255, 255, 255);float: left;margin-left: 110px;font-family: 'Dancing Script';}
 .border{border:3px solid #ccc!important} /*home_haodai_border*/
 .home-main {position: absolute;margin: 0;padding: 0;text-align: center;top: 50%;left: 50%;-webkit-transform: translate3d(-50%,-50%,0);transform: translate3d(-50%,-50%,0);}
 #home .content{max-width:100%}
@@ -53,7 +52,7 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
 /* horse_tabs */
 .myLink {display: none}
 #horse{position:relative}
-#horse .jumbo{width: 100%;font-size:70px;color: rgb(255, 255, 255);font-family: 'Dancing Script';}
+#horse .jumbo{width: 200px;font-size:70px;color: rgb(255, 255, 255);font-family: 'Dancing Script';margin-top: 50px;padding-left:500px ;}
 .tabs .white{color:rgb(255, 255, 255)!important;background-color:rgb(175, 163, 163)!important;opacity:0.75}
 .tabs .container{margin-top: 20px;height: 350px;}
 .tabs h2{color: #ffffff;margin-top: 40px;font-size: 30px;}

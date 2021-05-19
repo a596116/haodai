@@ -297,16 +297,15 @@ figcaption h2{width: 230px;text-align: center;font-family: "Dancing Script";}
 
 /* more */
 .container2 .button {
-  background-color: #b2b3b4; /* Green */
+  background-color: #b2b3b4;
   border: none;
   color: rgb(97, 96, 96);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  margin-left: 1030px;
+  /* margin-left: 1030px; */
   vertical-align:middle;
   width: 50px;
   transition: all 0.2s;

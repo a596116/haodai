@@ -21,7 +21,7 @@
         largeHeader.style.height = height+'px';
 
         canvas = document.getElementById('demo-canvas');
-        canvas.width = width;
+        canvas.width = width-30;
         canvas.height = height;
         ctx = canvas.getContext('2d');
 
