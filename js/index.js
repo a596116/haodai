@@ -81,18 +81,23 @@ function openMenu(evt, menuName) {
 // function showSlides() {
 //   var i;
 //   var slides = document.getElementsByClassName("mySlides");
+//   var dots = document.getElementsByClassName("dot");
 //   for (i = 0; i < slides.length; i++) {
 //     slides[i].style.display = "none";
 //   }
+//   for (i = 0; i < dots.length; i++) {
+//     dots[i].className = dots[i].className.replace(" active", "");
+// }
 //   slideIndex++;
 //   if (slideIndex > slides.length) {slideIndex = 1}
 //   slides[slideIndex-1].style.display = "block";
-//   setTimeout(showSlides, 2000); // Change image every 2 seconds
+//   dots[slideIndex-1].className += " active";
+//   setTimeout(showSlides, 6000); // Change image every 2 seconds
 // }
 /*------------------------------------------------------------------------------------------- */
 
 
-
+// bar顯示
 $(function(){
 	$(window).load(function(){
 		$(window).bind('scroll resize', function(){
@@ -131,7 +136,32 @@ $(function(){
 
 
 
-
 		}).scroll();
 	});
 });
+/*------------------------------------------------------------------------------------------- */
+
+
+
+function add_photo(a) {
+  $(document.body).append('<div style="position: fixed;width: 100%;height: 100%;z-index: 1;left: 0;top: 0;" id="show_photo"><div id="lbOverlay" onclick="rm_photo()"style="opacity: 0.8;" ></div><div class="" id="lbCenter" style="width: 345px; height: 537px; display: block;position: absolute;top: 50%;left: 62%;margin: -260px 0 0 -330px;"><div id="lbImage" style="background-image: url('+a+'); display: block;"><div style="position: relative; width: 325px; height: 517px;"></div></div></div></div>');
+}
+
+
+function rm_photo() {
+  $('#show_photo').remove();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

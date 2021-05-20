@@ -50,13 +50,21 @@ cite span {
 	font-weight: 400; 
 	color: #666464; 
 }
-
+.image_fl_bo{
+	width:420px;
+	height:320px;
+	overflow: hidden;
+}
 .image_fl { 
 	float: left; 
 	margin: 3px 20px 5px 0; 
 	width:408px;
 	height:306px;
+	clear: both;
+	
 }
+.image_fl{transform:scale(1,1);transition: all 1s ease-out;}
+.image_fl:hover{transform:scale(1.2,1.2);}
 
 .image_fr { 
 	float: right; 
@@ -144,7 +152,7 @@ cite span {
 	display: block;
 	overflow: hidden;
 	padding: 0;
-	cursor: pointer;
+	/* cursor: pointer; */
 	background: url(../images/slider_bg.png) no-repeat left
 }
 
@@ -307,7 +315,7 @@ cite span {
 	font-size: 12px; 
 	background: #191919; 
 	color: #ccc; 
-	cursor:pointer; 
+	/* cursor:pointer;  */
 	border: 1px solid #444444; 
 	padding: 5px 14px; 
 }

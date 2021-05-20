@@ -249,7 +249,8 @@ padding: 50px 0; }
 	right: 0;
 	bottom: 0;
 	left: 0;
-	padding: 1.25rem
+	padding: 1.25rem;
+  
 }
 .card-img {
 	width: 100%;
@@ -271,7 +272,8 @@ figcaption {
   font-size: 1.25em;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  margin-top: 290px;
+  /* margin-top: 290px; */
+  text-align: center;
 }
 
 
@@ -292,6 +294,18 @@ figcaption h2{width: 230px;text-align: center;font-family: "Dancing Script";}
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
 }
+
+
+.card1 .card-img-overlay img{
+	width: 81px;
+	height: 80px;
+  display:block; margin:auto;
+  padding-top: 70%;
+  padding-bottom: 70%;
+  padding-left: 35%;
+  padding-right: 35%;
+}
+
 
 
 
@@ -336,8 +350,6 @@ figcaption h2{width: 230px;text-align: center;font-family: "Dancing Script";}
   opacity: 1;
   right: 0;
 }
-
-
 
 
 
