@@ -344,14 +344,14 @@ cite span {
 
 
 #home .inner{margin-left: 50px;}
-#home h2{font-weight: normal;margin-left: 150px;color: rgb(79, 116, 102);font-family: 'Pacifico';font-size: 30px;}
+#home h2{font-weight:bold;margin-left: 150px;color: rgb(79, 116, 102);font-family: 'Allura';font-size: 35px;}
 
 #about .inner{margin-top: 50px;margin-left: 30px;}
-#about h2{margin-top: 30px;color: rgb(80, 102, 134);margin-left: 70px;font-family: 'Pattaya';font-size: 30px;width: 200px;}
+#about h2{margin-top: 30px;color: rgb(80, 102, 134);margin-left: 70px;font-family: 'Covered By Your Grace';font-size: 30px;width: 200px;}
 #about a{margin-left: 70px;}
 
 #social .inner{margin-top: 50px;margin-left: 30px;}
-#social h2{margin-top: 30px;color: rgb(80, 102, 134);margin-left: 70px;font-family: 'Pattaya';}
+#social h2{margin-top: 30px;color: rgb(80, 102, 134);margin-left: 70px;font-family: 'Covered By Your Grace';}
 #social a{margin-left: 70px;}
 #social div{margin-top: 30px;}
 
@@ -361,7 +361,7 @@ cite span {
 #contact .t1 a{margin-left: 60px;}
 #contact .t2 a{margin-left: 90px;}
 
-#haoyang h2{margin-left: 200px;color: rgb(122, 110, 128);font-family: 'Lobster';font-size: 30px;}
+#haoyang h2{margin-left: 200px;color: rgb(108, 112, 100);font-family: 'Homemade Apple';font-size: 30px;}
 
 
 
