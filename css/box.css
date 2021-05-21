@@ -224,6 +224,8 @@ cite span {
 	padding: 40px 0px 80px 20px;
 	overflow: hidden;
 }
+#tooplate_content li .inner1_1 {float:left; display:inline;overflow: hidden;clear:both;padding-left: 80px;}
+
 
 #tooplate_content li ul { 
 	margin: 0 0 0 10px; 
