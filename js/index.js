@@ -114,7 +114,13 @@ $(function(){
       var h4 = document.getElementById("home").scrollHeight + document.getElementById("box").scrollHeight + document.getElementById("Data").scrollHeight + document.getElementById("horse").scrollHeight;
       // var h5 = document.getElementById("home").scrollHeight + document.getElementById("box").scrollHeight + document.getElementById("Data").scrollHeight + document.getElementById("horse").scrollHeight + document.getElementById("ma").scrollHeight;
 
-			if($this_Top < h1-190){
+      if($this_Top < 100){
+        document.querySelector('.bar.white').style = "background-color:none";
+        document.querySelector('.bar-item.home').style = "background-color:none";
+      }
+      else{document.querySelector('.bar.white').style = "background-color:rgb(145, 145, 145)"}
+      
+			if($this_Top > 120 && $this_Top < h1-190){
         document.querySelector('.bar-item.home').style = "background-color:black";}
       else{document.querySelector('.bar-item.home').style = "background-color:none";}
 
@@ -142,12 +148,10 @@ $(function(){
 /*------------------------------------------------------------------------------------------- */
 
 
-
+// photo carousel 打開圖片
 function add_photo(a) {
   $(document.body).append('<div style="position: fixed;width: 100%;height: 100%;z-index: 1;left: 0;top: 0;" id="show_photo"><div id="lbOverlay" onclick="rm_photo()"style="opacity: 0.8;" ></div><div class="" id="lbCenter" style="width: 345px; height: 537px; display: block;position: absolute;top: 50%;left: 62%;margin: -260px 0 0 -330px;"><div id="lbImage" style="background-image: url('+a+'); display: block;"><div style="position: relative; width: 325px; height: 517px;"></div></div></div></div>');
 }
-
-
 function rm_photo() {
   $('#show_photo').remove();
 }

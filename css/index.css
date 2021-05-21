@@ -11,10 +11,12 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
 .bgimg2 .display-middle{position:absolute;top:42%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);margin-top: 80px;}
 
 
+a{text-decoration: none;}
+
 /*---------------------------------------------------------------------------------*/
 /* bar */
 .button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
-.white,.hover-white:hover{color:rgb(255, 255, 255)!important;background-color:rgb(145, 145, 145)!important}
+.white,.hover-white:hover{color:rgb(255, 255, 255)!important;}
 .button:hover{color:#000!important;background-color:#ccc!important} 
 .bar .bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0;width:17%;font-family: "Dancing Script";}
 .bar .button{white-space:normal;font-size: 18px;}
@@ -39,8 +41,8 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
 #menu{float:left;margin-left: 60px;margin-top: 0px;}
 #menu .content{width:430px;}
 #opendata h5{font-size: 25px;margin-left: 50px;font-family: 'Pattaya';color: rgb(143, 143, 143);}
-#opendata a{color: #6d7473; font-weight:bold; font-family:DFKai-sb; font-size:20px;margin-left: 50px;}
-#other a{color: #6d7473; font-weight:bold; font-family:'Dancing Script'; font-size:25px;margin-left: 50px;}
+/* #opendata a{color: #6d7473; font-weight:bold; font-family:'DFKai-sb'; font-size:20px;margin-left: 50px;} */
+/* #other a{color: #6d7473; font-weight:bold; font-family:'Dancing Script'; font-size:25px;margin-left: 50px;} */
 .col{float:left;width:100%}
 .col.s6{width:49.99999%;color: rgb(95, 95, 95);}
 .content{margin-left:auto;margin-right:auto}.content{max-width:980px}
@@ -49,6 +51,11 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
 .dark-grey,.hover-dark-grey:hover,.dark-gray,.hover-dark-gray:hover{color:#fff!important;background-color:#948f8f!important}
 .pale-red,.hover-pale-red:hover{color:#000!important;background-color:#bdbdbd!important}
 
+.sim-btn{cursor: pointer;}
+.btn-hover-lt{margin: 12px ;border: none;padding: 10px 44px;font-size: 20px;position: relative;display: inline-block;margin-left: 50px;}
+.btn-hover-lt::before {transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);content: '';width: 50%;height: 100%;background: rgb(214, 221, 181);position: absolute;top: 0;left: 0;border-radius: 10px 0px 0px 10px;}
+.btn-hover-lt .btn-text {color: rgb(63, 78, 66);mix-blend-mode: difference;font-family:'Dancing Script';font-size: 22px;font-weight:bold;}
+.btn-hover-lt:hover::before {background:rgb(214, 221, 181);width: 100%;border-radius: 10px;}
 
 /* horse_tabs */
 .myLink {display: none}
@@ -79,15 +86,78 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
 /*---------------------------------------------------------------------------------*/
 
 
+.btn-light {
+    padding: 8px 35px;
+    font-size: 18px;
+    border: 2px solid #ffffff !important;
+    color: #ffffff;
+    background-color: transparent;
+    margin-top: 20px;
+}
+.btn-light{
+	background-color: #8395a3 !important;
+	color: #ffffff !important;
+	border: 2px solid #8395a3 !important;
+    border-radius: 10px;
+}
+
+.effect-1 {
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.effect-1:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border-radius: 10px;
+    top: -7px;
+    left: -7px;
+    padding: 7px;
+    box-shadow: 0 0 0 2px #7e91a0;
+    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+    -webkit-transform: scale(.8);
+    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    transition: transform 0.2s, opacity 0.2s;
+    transform: scale(.8);
+    opacity: 0;
+}
 
 
 
+.effect-1:hover:after {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
 
+.effect-1:after {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
 
-
-
-
-
+.effect-1:hover:after {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
 
 
 
