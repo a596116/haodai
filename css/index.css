@@ -17,10 +17,10 @@ a{text-decoration: none;}
 /* bar */
 .button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
 .white,.hover-white:hover{color:rgb(255, 255, 255)!important;}
-.button:hover{color:#000!important;background-color:#ccc!important} 
+.button:hover{color:#000!important;background-color: #dddddd;transition: all 0.35s ease-in-out} 
 .bar .bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0;width:17%;font-family: "Dancing Script";font-weight: bold;}
 .bar .button{white-space:normal;font-size: 18px;}
-.bottom{position:fixed;width:100%;z-index:1}.bottom{top:0}
+.bottom{position:fixed;width:100%;z-index:999}.bottom{top:0}
 .opacity-min{opacity:0.8}
 
 /*home*/
