@@ -22,9 +22,10 @@ a{text-decoration: none;}
 .bar .bar-item{padding:25px 30px;float:left;width:auto;border:none;display:block;outline:0;font-family: "Dancing Script";font-weight: bold;text-decoration:none;}
 .bar_center{float: right;}
 .button:hover>.bar-button{ box-shadow: 0 3px 0 0 rgb(45, 124, 243);padding-bottom:15px;color: rgb(255, 255, 255);transition: all 0.35s ease-in-out;}
-.bottom{position:absolute;width:100%;background-color:none;z-index: 1;}.bottom{top:0} /*顯示在最上面*/
+.bottom{position:fixed;width:100%;background-color:none;z-index: 999;}.bottom{top:0} /*顯示在最上面*/
 .opacity-min{opacity:0.8;z-index: 0;}
 .bar_img{float: left;width: 45px;margin-left: 35px;margin-top: 10px;clear: both;}
+.bar_img:hover{cursor: pointer;}
 @media screen and (max-width: 725px) {.bar_img{display: none;}}
 @media screen and (max-width: 510px) {.bottom{display: none;}}
 

@@ -29,30 +29,36 @@ padding: 50px 0; }
 	padding-right: 15px;
 	padding-left: 15px;
 	margin-right: auto;
-	margin-left: auto
+	margin-left: auto;
+  overflow:hidden;
 }
 @media (min-width:576px) {
 	.container2 {
-		max-width: 540px
+		max-width: 540px;
+    zoom: 0.4;
 	}
 }
 @media (min-width:768px) {
 	.container2 {
-		max-width: 720px
+		max-width: 720px;
+    zoom: 0.6;
 	}
 }
 @media (min-width:992px) {
 	.container2 {
-		max-width: 960px
+		max-width: 960px;
+    zoom: 0.7;
 	}
 }
 @media (min-width:1200px) {
 	.container2 {
-		max-width: 1140px
+		max-width: 1140px;
+    zoom: 0.8;
 	}
 }
 .container2 {
-    min-width: 992px!important
+    min-width: 992px!important;
+    zoom: 0.95;
 }
 
 
