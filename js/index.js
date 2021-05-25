@@ -118,24 +118,24 @@ $(function(){
 	});
 });
 
-document.querySelector(".bar_img").onclick = function(){
-  document.querySelector("#home").scrollIntoView(false);
-  }
-document.querySelector(".home").onclick = function(){
-  document.querySelector("#home").scrollIntoView(false);
-  }
-document.querySelector(".box").onclick = function(){
-  document.querySelector("#box").scrollIntoView(false);
-  }
-document.querySelector(".data").onclick = function(){
-  document.querySelector("#Data").scrollIntoView(false);
-  }
-document.querySelector(".horse").onclick = function(){
-  document.querySelector("#horse").scrollIntoView(false);
-  }
-document.querySelector(".ma").onclick = function(){
-  document.querySelector("#ma").scrollIntoView(false);
-  }
+// document.querySelector(".bar_img").onclick = function(){
+//   document.querySelector("#home").scrollIntoView(false);
+//   }
+// document.querySelector(".home").onclick = function(){
+//   document.querySelector("#home").scrollIntoView(false);
+//   }
+// document.querySelector(".box").onclick = function(){
+//   document.querySelector("#box").scrollIntoView(false);
+//   }
+// document.querySelector(".data").onclick = function(){
+//   document.querySelector("#Data").scrollIntoView(false);
+//   }
+// document.querySelector(".horse").onclick = function(){
+//   document.querySelector("#horse").scrollIntoView(false);
+//   }
+// document.querySelector(".ma").onclick = function(){
+//   document.querySelector("#ma").scrollIntoView(false);
+//   }
 /*------------------------------------------------------------------------------------------- */
 
 
