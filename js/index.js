@@ -112,33 +112,31 @@ $(function(){
       var h2 = document.getElementById("home").scrollHeight + document.getElementById("box").scrollHeight;
       var h3 = document.getElementById("home").scrollHeight + document.getElementById("box").scrollHeight + document.getElementById("Data").scrollHeight;
       var h4 = document.getElementById("home").scrollHeight + document.getElementById("box").scrollHeight + document.getElementById("Data").scrollHeight + document.getElementById("horse").scrollHeight;
-      // var h5 = document.getElementById("home").scrollHeight + document.getElementById("box").scrollHeight + document.getElementById("Data").scrollHeight + document.getElementById("horse").scrollHeight + document.getElementById("ma").scrollHeight;
+      var h5 = document.getElementById("home").scrollHeight + document.getElementById("box").scrollHeight + document.getElementById("Data").scrollHeight + document.getElementById("horse").scrollHeight + document.getElementById("ma").scrollHeight;
 
-      if($this_Top < 100){
-        document.querySelector('.bar.white').style = "background-color:none";
-        document.querySelector('.bar-item.home').style = "background-color:none;";
+      if($this_Top < 100){document.querySelector('.bottom').style = "background-color:none;transition: all 0.4s ease-in-out;"}
+        else{document.querySelector('.bottom').style = "background-color:rgba(22, 22, 22, 0.75);transition: all 0.4s ease-in-out;"}
+
+      if($this_Top < h1-(h1/3)){
+        document.querySelector('.home').style = "box-shadow: 0 3px 0 0 rgb(45, 124, 243);padding-bottom:15px;transition: all 0.35s ease-in-out;";
       }
-      else{document.querySelector('.bar.white').style = "background-color:rgb(145, 145, 145)"}
+        else{document.querySelector('.home').style = "box-shadow:none";document.querySelector('.home').style = "padding-bottom:15px;transition: all 0.35s ease-in-out;"}
       
-			if($this_Top > 100 && $this_Top < h1-190){
-        document.querySelector('.bar-item.home').style = "background-color:black;transition: all 0.35s ease-in-out";}
-      else{document.querySelector('.bar-item.home').style = "background-color:none;transition: all 0.35s ease-in-out";}
+			if($this_Top > h1-(h1/3) && $this_Top < h2-(h1/3)){
+        document.querySelector('.box').style = "box-shadow: 0 3px 0 0 rgb(45, 124, 243);padding-bottom:15px;transition: all 0.35s ease-in-out;"}
+        else{document.querySelector('.box').style = "box-shadow:none";document.querySelector('.box').style = "padding-bottom:15px;transition: all 0.35s ease-in-out;"}
 
-			if($this_Top > h1-190 && $this_Top < h2-500){
-        document.querySelector('.bar-item.box').style = "background-color:black;transition: all 0.35s ease-in-out";}
-        else{document.querySelector('.bar-item.box').style = "background-color:none;transition: all 0.35s ease-in-out";}
+			if($this_Top > h2-(h1/3) && $this_Top < h3-(h1/3)){
+        document.querySelector('.data').style = "box-shadow: 0 3px 0 0 rgb(45, 124, 243);padding-bottom:15px;transition: all 0.35s ease-in-out;"}
+        else{document.querySelector('.data').style = "box-shadow:none";document.querySelector('.data').style = "padding-bottom:15px;transition: all 0.35s ease-in-out;"}
 
-      if($this_Top > h2-500 && $this_Top < h3-550){
-        document.querySelector('.bar-item.data').style = "background-color:black;transition: all 0.35s ease-in-out";}
-        else{document.querySelector('.bar-item.data').style = "background-color:none;transition: all 0.35s ease-in-out";}
+      if($this_Top > h3-(h1/3) && $this_Top < h4-(h1/3)){
+        document.querySelector('.horse').style = "box-shadow: 0 3px 0 0 rgb(45, 124, 243);padding-bottom:15px;transition: all 0.35s ease-in-out;"}
+        else{document.querySelector('.horse').style = "box-shadow:none";document.querySelector('.horse').style = "padding-bottom:15px;transition: all 0.35s ease-in-out;"}
 
-      if($this_Top > h3-550 && $this_Top < h4-650){
-        document.querySelector('.bar-item.horse').style = "background-color:black;transition: all 0.35s ease-in-out";}
-        else{document.querySelector('.bar-item.horse').style = "background-color:none;transition: all 0.35s ease-in-out";}
-
-      if($this_Top > h4-650){
-        document.querySelector('.bar-item.ma').style = "background-color:black;transition: all 0.35s ease-in-out";}
-        else{document.querySelector('.bar-item.ma').style = "background-color:none;transition: all 0.35s ease-in-out";}
+      if($this_Top > h4-(h1/3) && $this_Top < h5-(h1/3)){
+        document.querySelector('.ma').style = "box-shadow: 0 3px 0 0 rgb(45, 124, 243);padding-bottom:15px;transition: all 0.35s ease-in-out;"}
+        else{document.querySelector('.ma').style = "box-shadow:none";document.querySelector('.ma').style = "padding-bottom:15px;transition: all 0.35s ease-in-out;"}
 
 
 

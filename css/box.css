@@ -106,11 +106,17 @@ cite span {
 .float_l { float: left }
 .float_r { float: right }
 
-#tooplate_main { 
+/* #tooplate_main { 
 	width: 968px;
 	height: 100%;
 	margin: 0 auto;
-}
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: auto;
+	margin-left: auto;
+} */
 
 #site_title { 
 	width: 220px; 
@@ -135,8 +141,15 @@ cite span {
 }
 
 #tooplate_content {
-	width: 938px;
-	height: 478px;
+	width: 968px;
+	height: 100%;
+	margin: 0 auto;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: auto;
+	margin-left: auto;
 	padding: 15px;
 	background: url(../images/tooplate_content.png) no-repeat
 }

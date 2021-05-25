@@ -6,8 +6,8 @@ body, html {height: 100%;scroll-behavior: smooth;}
 p {line-height: 2}
 .bgimg, .bgimg2 {min-height: 100%;background-position: center;background-size: cover;}
 h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}
-.bgimg {background-image: url("https://upload.cc/i1/2021/05/15/YP4gQD.jpg")}
-.bgimg2 {background-color: rgba(175, 175, 175, 0.8);background-image: url("https://upload.cc/i1/2021/05/15/ZWiztL.jpg");background-blend-mode: multiply;}
+.bgimg {background-image: url("https://upload.cc/i1/2021/05/15/YP4gQD.jpg");background-attachment:fixed;}
+.bgimg2 {background-color: rgba(175, 175, 175, 0.8);background-image: url("https://upload.cc/i1/2021/05/15/ZWiztL.jpg");background-blend-mode: multiply;background-attachment:fixed;}
 .bgimg2 .display-middle{position:absolute;top:42%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);margin-top: 80px;}
 
 
@@ -15,27 +15,40 @@ a{text-decoration: none;}
 
 /*---------------------------------------------------------------------------------*/
 /* bar */
-.button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
-.white,.hover-white:hover{color:rgb(255, 255, 255)!important;}
-.button:hover{color:#000!important;background-color: #dddddd;transition: all 0.35s ease-in-out} 
-.bar .bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0;width:17%;font-family: "Dancing Script";font-weight: bold;}
-.bar .button{white-space:normal;font-size: 18px;}
-.bottom{position:fixed;width:100%;z-index:999}.bottom{top:0}
-.opacity-min{opacity:0.8}
+.button{border:none;display:inline-block;vertical-align:middle;overflow:hidden;background-color:inherit;cursor:pointer}
+.bar.white{color:rgb(255, 255, 255)!important;}
+.button:hover{color:rgb(255, 255, 255)!important;}
+.bar-button {color: #fff;font-size: 20px;}
+.bar .bar-item{padding:25px 30px;float:left;width:auto;border:none;display:block;outline:0;font-family: "Dancing Script";font-weight: bold;text-decoration:none;}
+.bar_center{float: right;}
+.button:hover>.bar-button{ box-shadow: 0 3px 0 0 rgb(45, 124, 243);padding-bottom:15px;color: rgb(255, 255, 255);transition: all 0.35s ease-in-out;}
+.bottom{position:absolute;width:100%;background-color:none;z-index: 1;}.bottom{top:0} /*顯示在最上面*/
+.opacity-min{opacity:0.8;z-index: 0;}
+.bar_img{float: left;width: 45px;margin-left: 35px;margin-top: 10px;clear: both;}
+@media screen and (max-width: 725px) {.bar_img{display: none;}}
+@media screen and (max-width: 510px) {.bottom{display: none;}}
+
 
 /*home*/
 .display-middle{position:absolute;top:60%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);margin-top: 80px;}
-#home .jumbo{font-size:64px;color: rgb(255, 255, 255);float: left;margin-left: 110px;font-family: 'Dancing Script';}
 .border{border:3px solid #ccc!important} /*home_haodai_border*/
 .home-main {position: absolute;margin: 0;padding: 0;text-align: center;top: 50%;left: 50%;-webkit-transform: translate3d(-50%,-50%,0);transform: translate3d(-50%,-50%,0);}
 #home .content{max-width:100%}
-.hao{float: left;margin-left: 50px;margin-top: 10px;width: 119px ;height: 136px;}
-.dai{float: left;margin-left: 80px;margin-right: 50px;margin-top: 10px;width: 93px;height: 133px;}
-
+.hao{float: left;margin-left: 40px;margin-top: 10px;width: 119px ;height: 136px;}
+.dai{float: left;margin-left: 50px;margin-right: 40px;margin-top: 10px;width: 93px;height: 133px;}
+#home .jumbo{font-size:64px;color: rgb(255, 255, 255);float: left;margin-left: 80px;font-family: 'Dancing Script';}
+@media screen and (max-width: 910px) {.hao{width: 83px;height: 95px;}.dai{width: 65px;height: 93px;}#home .jumbo{font-size: 45px;}}
+@media screen and (max-width: 585px) {.dai{margin-left: 27px;}#home .jumbo{margin-left: 65px;}}
 
 /* box */
 #box{background-color: #cccaca;height: 750px;}
-
+@media screen and (max-width: 970px) {
+    #tooplate_content{
+        zoom: 0.6;
+    }
+    #box{height: 700px;}
+    #box{height: 500px;}
+    }
 
 /* Data */
 #menu{float:left;margin-left: 60px;margin-top: 0px;}
@@ -160,9 +173,6 @@ a{text-decoration: none;}
     transform: scale(1);
     opacity: 1;
 }
-
-
-
 
 
 
