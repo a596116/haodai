@@ -12,8 +12,19 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    /* flex-direction: column; */
+    flex-direction: column;
     background-color: #0e1538;
+}
+.title{
+    text-align: center;
+}
+h1{
+    font-size: 48px;
+    color: #fff;
+}
+h3{
+    font-size: 28px;
+    color: #fff;
 }
 .container{
     position: relative;
