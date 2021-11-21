@@ -12,10 +12,11 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    flex-direction: column;
     background-color: #0e1538;
 }
 .title{
+    position: absolute;
+    top: 10vh;
     text-align: center;
 }
 h1{
@@ -30,6 +31,7 @@ h3{
     position: relative;
     width: 1500px;
     display: flex;
+    top: 15vh;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -94,7 +96,6 @@ a span{
     font-size: 2em;
     color: #fff;
     opacity: 0.5;
-    text-transform: uppercase;
     letter-spacing: 4px;
     transition: 0.5s;
 }

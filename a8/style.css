@@ -14,7 +14,7 @@ body {
 
 .container{
     position: relative;
-    width: 1100px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@ body {
     transition: 0.3s ease-in-out;
 }
 .container .card:hover{
-height: 420px;
+    height: 420px;
 }
 
 .container .card .imgBx{
