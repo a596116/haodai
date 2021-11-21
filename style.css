@@ -8,15 +8,11 @@
 }
 
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
     background-color: #0e1538;
 }
 .title{
-    position: absolute;
-    top: 10vh;
+    margin: 50px 0;
     text-align: center;
 }
 h1{
@@ -28,10 +24,14 @@ h3{
     color: #fff;
 }
 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
     position: relative;
     width: 1500px;
     display: flex;
-    top: 15vh;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
