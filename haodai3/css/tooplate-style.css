@@ -1,0 +1,115 @@
+body {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 19px;
+	font-weight: 300;
+	overflow-x: hidden;
+}
+
+a, button {
+	transition: all 0.3s ease;
+	color: #FFFFFF;
+}
+
+a:hover {
+	color: #FFFF00;
+	text-decoration: none;
+}
+a:focus {
+	text-decoration: none;
+	outline: none;
+}
+.parallax-window {
+	min-height: 100vh;
+	background: transparent;
+	display: flex;
+	align-items: center;
+	background-attachment:scroll;
+}
+.parallax-window-none {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+.tm-text-white { color: #fff; }
+
+.tm-page-1-content { 
+	padding-top: 1vh;
+	align-items: center;
+}
+
+.tm-page-2{
+	max-width: 800px;
+}
+
+.tm-page-4-content { 
+	padding-top: 1vh;	
+}
+
+.container {
+	float: right;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.container1 {
+	float: left;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.tm-position-relative {
+	position: relative;
+}
+
+.footer {
+	padding: 15px; 
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: white;
+	text-align:center;
+	width:100%;
+}
+
+.btn-danger {
+	font-size: 1.5rem;
+	margin-top: 20px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #acbac2;
+	border-color: #acbac2;
+}
+
+.row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+@media screen and (max-width: 767px) {
+	.tm-form-section {
+		padding-top: 80px;
+    	padding-bottom: 100px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.tm-page-4-content { 
+		margin-bottom: 50px;
+	}
+}
+
+
+

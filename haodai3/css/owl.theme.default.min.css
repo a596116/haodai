@@ -1,0 +1,97 @@
+.owl-theme {
+	margin-top: 10px;
+	text-align: center;
+	-webkit-tap-highlight-color: transparent
+}
+
+/* --------------------------------------------------------------------------------------------------
+-------------------------------------------nav ------------------------------------------------------
+----------------------------------------------------------------------------------------------------*/ 
+.owl-theme .owl-nav [class*=owl-] {
+	color: rgb(175, 175, 175);
+	font-size: 10px;
+	margin: 5px;
+	padding: 4px 4px;
+	background: none;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+	color: #ecaa6d;
+	text-decoration: none
+}
+.owl-theme .owl-nav .disabled {
+	opacity: .5;
+	cursor: default
+}
+.owl-carousel .owl-nav span {
+	display: none;
+  }
+.owl-carousel .owl-nav .owl-prev:before,
+.owl-carousel .owl-nav .owl-next:before {
+background: none;
+padding: 0;
+display: block;
+position: absolute;
+top: 50%;
+transform: translate(0, -50%);
+font-family: 'unicons';
+font-size: 90px;
+line-height: normal;
+
+}
+.owl-carousel .owl-nav .owl-prev:before {
+content: '\e833';
+left: -15px;
+}
+.owl-carousel .owl-nav .owl-next:before {
+content: '\e836';
+right: -15px;
+}
+.owl-theme .owl-nav [class*=owl-] {
+background: none;
+border-radius: 0;
+margin: 0;
+padding: 0;
+font-size: inherit;
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------
+-------------------------------------------dot ------------------------------------------------------
+----------------------------------------------------------------------------------------------------*/ 
+.owl-theme .owl-dots .owl-dot {
+	display:inline-block;
+	zoom: 1;
+	*display: inline;
+}
+.owl-theme .owl-dots .owl-dot span {
+	width: 10px;
+	height: 10px;
+	margin: 5px 7px;
+	background: #d6d6d6;
+	display: block;
+	-webkit-backface-visibility: visible;
+	-webkit-transition: opacity 200ms ease;
+	-moz-transition: opacity 200ms ease;
+	-ms-transition: opacity 200ms ease;
+	-o-transition: opacity 200ms ease;
+	transition: opacity 200ms ease;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+	background: #869791
+}
+
+
+
+
+
+
+  
