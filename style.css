@@ -28,7 +28,7 @@ h3{
     justify-content: center;
     align-items: center;
 }
-.card{
+.container .card{
     position: relative;
     width: 1500px;
     display: flex;
@@ -36,7 +36,7 @@ h3{
     align-items: center;
     flex-wrap: wrap;
 }
-a{
+.container a{
     position: relative;
     padding: 20px 60px;
     display: flex;
@@ -49,14 +49,14 @@ a{
     overflow: hidden;
     -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0004);
 }
-a:hover{
+.container a:hover{
     background: var(--clr);
     box-shadow: 0 0 10px var(--clr),
     0 0 30px var(--clr),
     0 0 160px var(--clr),
     0 0 100px var(--clr);
 }
-a::before{
+.container a::before{
     content: '';
     position: absolute;
     width: 40px;
@@ -66,7 +66,7 @@ a::before{
     animation: animate 2s linear infinite;
     animation-delay: calc(0.33s * var(--i));
 }
-a:hover::before{
+.container a:hover::before{
     width: 120%;
 }
 
@@ -79,18 +79,18 @@ a:hover::before{
     }
 }
 
-a::after{
+.container a::after{
     content: '';
     position: absolute;
     inset: 4px;
     background: #0e1538;
     transition: 0.5s;
 }
-a:hover::after{
+.container a:hover::after{
     background: var(--clr);
 }
 
-a span{
+.container a span{
     position: relative;
     z-index: 1;
     font-size: 2em;
@@ -100,9 +100,96 @@ a span{
     transition: 0.5s;
 }
 
-a:hover span{
+.container a:hover span{
     opacity: 1;
 }
 
 
 
+
+
+/* top_container */
+.container1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+.container1 a{
+    position: relative;
+    display: block;
+    margin: 20px 0;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    color: #fff;
+    background: #3f51b5;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+.container1 a:hover{
+    background: #e91e63;
+}
+
+.container1 a::before{
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: -1;
+    transition: transform 0.5s ease-in-out;
+}
+
+.container1 a:nth-child(1):before{
+    transform-origin: right;
+    transform: scaleX(0);
+}
+.container1 a:hover:nth-child(1):before{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.container1 a:nth-child(2):before{
+    transform-origin: bottom;
+    transform: scaleY(0);
+}
+.container1 a:hover:nth-child(2):before{
+    transform-origin: top;
+    transform: scaleY(1);
+}
+
+.container1 a:nth-child(3):before{
+    transform-origin: left;
+    transform: scaleY(0);
+}
+.container1 a:hover:nth-child(3):before{
+    transform-origin: right;
+    transform: scaleY(1);
+}
+
+
+
+
+.container1 a::after{
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    z-index: -1;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+.container1 a:hover::after{
+    top: -8px;
+    left: -8px;
+}
