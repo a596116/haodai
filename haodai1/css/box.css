@@ -1,0 +1,381 @@
+.ooo{height: 130px;}
+.ti{width: 500px;height: 102px;display:block; margin:auto;}
+
+/* li a, li a:link,li a:visited { 
+	color: #58656d; 
+	font-weight: normal; 
+	text-decoration: none; 
+	font-style: italic; 
+	font-size: 25px;
+	line-height: 45px;
+} */
+
+/* li a:hover { 
+	text-decoration: underline; 
+} */
+
+li a.more { 
+	display: inline-block; 
+	width: 90px; 
+	height: 13px; 
+	background: url(../images/tooplate_read_more.png) no-repeat; 
+}
+
+p { 
+	margin: 0 0 20px 0; 
+	padding: 0; 
+}
+
+li img { 
+	border: #fff 4px solid; 
+}
+
+blockquote { 
+	font-style: italic; 
+	margin: 0 0 0 10px;
+}
+
+cite { 
+	font-weight: bold; 
+	color:#e9e7e0; 
+}
+
+cite a, cite a:link, cite a:visited  { 
+	font-size: 12px; 
+	text-decoration: none; 
+	font-style: normal; 
+}
+
+cite span { 
+	font-weight: 400; 
+	color: #666464; 
+}
+.image_fl_bo{
+	width:420px;
+	height:320px;
+	overflow: hidden;
+}
+.image_fl { 
+	float: left; 
+	margin: 3px 20px 5px 0; 
+	width:408px;
+	height:306px;
+	clear: both;
+	
+}
+.image_fl{transform:scale(1,1);transition: all 1s ease-out;}
+.image_fl:hover{transform:scale(1.2,1.2);}
+
+.image_fr { 
+	float: right; 
+	margin: 3px 0 5px 20px;
+	margin-right: 50px;
+	width:200px;
+	height:200px; 
+}
+.image_fr:hover {
+	/* Start the shake animation and make the animation last for 0.5 seconds */
+	animation: shake 0.5s;
+  
+	/* When the animation is finished, start again */
+	animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+	0% { transform: translate(1px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { transform: translate(-3px, 0px) rotate(1deg); }
+	30% { transform: translate(3px, 2px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(3px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -1px) rotate(1deg); }
+	90% { transform: translate(1px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+
+.float_l { float: left }
+.float_r { float: right }
+
+/* #tooplate_main { 
+	width: 968px;
+	height: 100%;
+	margin: 0 auto;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: auto;
+	margin-left: auto;
+} */
+
+#site_title { 
+	width: 220px; 
+	height: 51px; 
+	margin: 0 auto 20px; 
+}
+
+#site_title h1 { 
+	margin: 0; 
+	padding: 0; 
+}
+
+#site_title h1 a { 
+	display: block; 
+	font-size: 12px; 
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	width: 275px; 
+	height: 51px; 
+	color: #acacac; 
+	text-indent: -10000px; 
+	background: url(../images/tooplate_logo.png) no-repeat center left; 
+}
+
+#tooplate_content {
+	width: 968px;
+	height: 100%;
+	margin: 0 auto;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 15px;
+	background: url(../images/tooplate_content.png) no-repeat
+}
+
+.kwicks {
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.kwicks li{
+	display: block;
+	overflow: hidden;
+	padding: 0;
+	/* cursor: pointer; */
+	background: url(../images/slider_bg.png) no-repeat left
+}
+
+#tooplate_content li {
+	float: left;
+	position: relative;
+	width: 188px;
+	height: 478px;
+}
+
+.kwicks li.active {
+	background: url(../images/slider_bg_hover.png) no-repeat left
+}
+
+.kwicks li span.header {
+	position: absolute;
+	bottom: 15px;
+	left: 10px;
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+.kwicks li span.slideno {
+	position: absolute;
+	top: 15px;
+	left: 10px;
+	width: 36px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+
+#tooplate_content #home span.slideno {
+	background-image: url(../images/home.png);
+}
+
+#tooplate_content #about span.slideno {
+	background-image: url(../images/school.png)	
+}
+
+#tooplate_content #social span.slideno {
+	background-image: url(../images/school.png)	
+}
+
+#tooplate_content #contact span.slideno { 
+	background-image: url(../images/data.png)	
+}
+
+#tooplate_content #haoyang span.slideno {
+	background-image: url(../images/m.png)	
+}
+
+
+#tooplate_content li .inner {
+	width: 570px; 
+	padding: 40px 40px 40px 100px; 
+	overflow: hidden;
+}
+
+#tooplate_content li .inner11 {
+	width: 300px; 
+	padding: 0px 0px 80px 10px;
+	overflow: hidden;
+}
+#tooplate_content li .inner1 {
+	width: 250px; 
+	padding: 40px 0px 80px 20px;
+	overflow: hidden;
+}
+#tooplate_content li .inner1_1 {float:left; display:inline;overflow: hidden;clear:both;padding-left: 80px;}
+
+
+#tooplate_content li ul { 
+	margin: 0 0 0 10px; 
+	padding: 0; 
+	list-style: decimal-leading-zero; 
+}
+
+#tooplate_content li ul li {
+	width: auto;
+	height: auto;
+	float: none;
+	margin: 0;
+	padding: 0 0 5px 18px;
+	background: url(../images/tooplate_list.png) scroll 0px 7px no-repeat
+}
+
+#tooplate_content li ul.social_links {
+	margin-top: 40px
+}
+
+#tooplate_content li ul.social_links li {
+	width: auto;
+	height: auto;
+	float: left;
+	width: 180px;
+	margin: 0 0 40px;
+	padding: 0;
+	background: none;
+}
+
+#tooplate_content li ul.social_links li a {
+	display: block;
+	height: 33px;
+	padding: 15px 0 0 60px;
+	font-size: 14px;
+	color: #fff;
+	background-position: left;
+	background-repeat: no-repeat
+}
+
+#tooplate_content li #gallery {
+	margin-top: 40px
+}
+
+#tooplate_content li #gallery li {
+		width: auto;
+		height: auto;
+		float: left;
+		width: 125px;
+		height: 125px;
+		margin: 0 5px 5px 0;
+		padding: 0;
+		background: none;
+}
+
+#tooplate_content li #gallery li a {
+	display: block;
+}
+
+
+#contact_form { 
+	padding: 0; 
+	width: 410px; 
+}
+
+#contact_form form { 
+	margin: 0px; 
+	padding: 0px; 
+}
+
+#contact_form form .input_field { 
+	width: 300px; 
+	padding: 5px; 
+	color: #ccc; 
+	border: 1px solid #444444;  
+	background: #262626; 
+	margin-bottom: 10px; 
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size: 11px;
+}
+
+#contact_form form label { 
+	display: block;
+	font-size: 11px; 
+}
+
+#contact_form form textarea { 
+	clear: both; 
+	width: 398px; 
+	height: 100px; 
+	padding: 5px; 
+	color: #ccc;
+	border: 1px solid #444444;  
+	background: #262626;  
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size: 11px;
+}
+
+#contact_form form .submit_btn { 
+	font-size: 12px; 
+	background: #191919; 
+	color: #ccc; 
+	/* cursor:pointer;  */
+	border: 1px solid #444444; 
+	padding: 5px 14px; 
+}
+
+.col_half { width: 270px }
+
+
+
+
+
+
+
+
+
+#home .inner{margin-left: 50px;}
+#home h2{font-weight:bold;margin-left: 150px;color: rgb(79, 116, 102);font-family: 'Allura';font-size: 35px;}
+
+#about .inner{margin-top: 50px;margin-left: 30px;}
+#about h2{margin-top: 30px;color: rgb(80, 102, 134);margin-left: 70px;font-family: 'Covered By Your Grace';font-size: 30px;width: 200px;}
+#about a{margin-left: 70px;}
+
+#social .inner{margin-top: 50px;margin-left: 30px;}
+#social h2{margin-top: 30px;color: rgb(80, 102, 134);margin-left: 70px;font-family: 'Covered By Your Grace';}
+#social a{margin-left: 70px;}
+#social div{margin-top: 30px;}
+
+#contact .title1{margin-top: 40px;color: rgb(87, 165, 155);margin-left: 60px;float:left;width: 30%;font-family: 'Dancing Script';font-size: 40px;}
+#contact .title2{margin-top: 40px;color: rgb(87, 165, 155);margin-left: 120px;float:left;width: 30%;font-family: 'Dancing Script';font-size: 40px;}
+#contact div{margin-top: 20px;float:left;width: 45%;}
+#contact .t1 a{margin-left: 60px;}
+#contact .t2 a{margin-left: 90px;}
+
+#haoyang h2{margin-left: 200px;color: rgb(108, 112, 100);font-family: 'Homemade Apple';font-size: 30px;}
+
+
+
+
