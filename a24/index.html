@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haodai</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <h2>Simple Parallax Effects for Website</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci autem eius nemo quos totam nesciunt
+            officia ex eos neque et rem beatae, voluptates, molestiae necessitatibus dignissimos error provident minus.
+        </p>
+    </section>
+    <div class="parallaxBg">
+        <img src="a1.jpg" alt="" class="parallaximg1">
+        <h2>Left</h2>
+    </div>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci autem eius nemo quos totam nesciunt
+            officia ex eos neque et rem beatae, voluptates, molestiae necessitatibus dignissimos error provident minus.
+        </p>
+    </section>
+    <div class="parallaxBg">
+        <img src="a2.jpg" alt="" class="parallaximg2">
+        <h2>Left</h2>
+    </div>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci autem eius nemo quos totam nesciunt
+            officia ex eos neque et rem beatae, voluptates, molestiae necessitatibus dignissimos error provident minus.
+        </p>
+    </section>
+    <div class="parallaxBg">
+        <img src="a3.png" alt="" class="parallaximg3">
+        <h2>Top</h2>
+    </div>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci autem eius nemo quos totam nesciunt
+            officia ex eos neque et rem beatae, voluptates, molestiae necessitatibus dignissimos error provident minus.
+        </p>
+    </section>
+    <div class="parallaxBg">
+        <img src="a4.jpg" alt="" class="parallaximg4">
+        <h2>Down</h2>
+    </div>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci autem eius nemo quos totam nesciunt
+            officia ex eos neque et rem beatae, voluptates, molestiae necessitatibus dignissimos error provident minus.
+        </p>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+    <script>
+        var image1 = document.getElementsByClassName('parallaximg1');
+        var image2 = document.getElementsByClassName('parallaximg2');
+        var image3 = document.getElementsByClassName('parallaximg3');
+        var image4 = document.getElementsByClassName('parallaximg4');
+        new simpleParallax(image1, {
+            orientation: 'left'
+        });
+        new simpleParallax(image2, {
+            orientation: 'right'
+        });
+        new simpleParallax(image3, {
+            orientation: 'up'
+        });
+        new simpleParallax(image4, {
+            orientation: 'down'
+        });
+    </script>
+</body>
+
+</html>
